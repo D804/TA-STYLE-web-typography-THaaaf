@@ -8,3 +8,4 @@ writeCode
 - Use semantic tags and keep the nesting and indentation proper.
 - Work on typography in detail.
 - Chose your own font-family.
+
