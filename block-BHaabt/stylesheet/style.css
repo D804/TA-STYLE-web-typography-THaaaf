@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Custom Styles*/
+body{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.2 ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Serif Display', serif;
+}
+/*General*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+ a{
+     text-decoration: none;
+ }
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid green;*/
+}
+.about-heading{
+    font-size: 27px;
+    padding: 15px 0 0 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.align{
+    align-items: flex-start;
+}
+.col{
+    flex: 0 1 45%;
+   
+}
+.padding{
+    padding: 50px 0;
+}
+.heading{
+    font-size: 40px;
+    color: #01122D;
+}
+
+/*Button*/
+.btn{
+   display: inline-block;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: 1px solid #979797;
+    border-radius: 4px;
+}
+/*Header*/
+.header{
+   background-color: white;
+
+}
+
+ .brand{
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2D2640;
+    font-family: 'DM Serif Display', serif;
+}
+.nav{
+    font-family: 'Karla', sans-serif;
+  
+}
+
+.nav a{
+    font-size: 18px;
+    margin: 10px;
+    color: #6E6B74;
+   
+    font-weight: 700;
+}
+/*Hero*/
+.hero{
+    background-color: #2D2640;
+    color: white;
+    padding: 60px 0 0 0;
+}
+/*About section*/
+
+h1{
+    
+    font-size: 65px;
+    color: white;
+    padding: 35px 0 0 0;
+}
+.text{
+    font-size: 18px;
+    padding: 20px 0 40px 0;
+    color: #D4D4D4;
+}
+.line{
+    
+    width: 180px;
+    height: 2px;
+    background-color: #837F8C;
+}
+.hero a{
+    color: white;
+}
+.hero-img{
+    margin-bottom: -130px;
+    width: 100%;
+}
+.about{
+    padding: 100px 0;
+}
+.about p{
+    line-height: 1.5;
+}
+.about-img{
+    width: 100%;
+    
+}
+
+.about-text{
+    font-size: 20px;
+    color:#6E6B74 ;
+}
+.about-btn{
+    color:#6E6B74;
+    font-size: 18px;
+}
+
+.col-left{
+    flex: 0 1 30%;
+    
+    
+}
+.col-left i {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #8AB4F0;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.feature-text{
+    color: #2D2640;
+    padding: 10px  0;
+} 
+.cta-section .container{
+  background-color: #2D2640;
+  padding: 80px 50px;
+  
+}
+.cta-section {
+    color: white;
+}
+.cta-section h3{
+    font-size: 40px;
+}
+.cta-section .btn{
+    color: white;
+}
+.copyright{
+    background-color: #2D2640;
+    padding: 30px 0;
+    text-align: center;
+    color: #9296AA;
+    font-size: 20px;
+}
+.footer .nav{
+    text-align: center;
+    padding: 30px 0;
+    font-weight:100;
+}
+.social a{
+    font-size: 30px;
+
+}
